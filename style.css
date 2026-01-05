@@ -1,0 +1,21 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  color:white;
+  padding:40px;
+}
+
+.box{
+  margin:80px 0;
+  padding:40px;
+  background:#0f172a;
+  border-radius:12px;
+  transform:translateY(40px);
+  opacity:0;
+  transition:0.6s;
+}
+
+.box.show{
+  transform:translateY(0);
+  opacity:1;
+}
